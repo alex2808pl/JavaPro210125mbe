@@ -1,4 +1,4 @@
-package de.telran.generic;
+package de.telran.generic_20250311;
 
 import java.util.List;
 
@@ -61,16 +61,16 @@ public class MainAccount {
         AccountInteger accountInteger = new AccountInteger(12345, 4000);
         System.out.println("accountInteger = "+accountInteger.getId());
 
-        // реальные объекты
-        List<Integer> listInt = List.of(1,2,3,4,5,6);
-        System.out.println("List<Integer> listInt = "+listInt);
-
         // 2 и более generic параметров
         AccountTwoGeneric<String, Double> accountTwoGeneric1 = new AccountTwoGeneric<>("DE1234", 1000.0);
         System.out.println("accountTwoGeneric1 = "+accountTwoGeneric1.getId());
         accountTwoGeneric1.setSum(4321.5);
         System.out.println("accountTwoGeneric1 = "+accountTwoGeneric1.getSum());
 
+
+        // реальные объекты, с чем встретитесь
+        List<Integer> listInt = List.of(1,2,3,4,5,6);
+        System.out.println("List<Integer> listInt = "+listInt);
 
     }
 }

@@ -1,4 +1,4 @@
-package de.telran.generic;
+package de.telran.generic_20250311;
 
 public class MainPrinter {
     public static void main(String[] args) {
