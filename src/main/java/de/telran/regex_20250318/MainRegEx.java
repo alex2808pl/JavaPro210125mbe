@@ -57,7 +57,6 @@ public class MainRegEx {
         }
         System.out.println();
 
-
         // Литеральные строки
         findByPattern("apple", "applet, crabapple");
 
