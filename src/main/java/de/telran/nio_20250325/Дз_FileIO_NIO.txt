@@ -1,0 +1,20 @@
+1) Написать приложение, которое будет копировать информацию из файла в другой файл с использованием NIO.
+Путь к существующему файлу и имя нового файла нужно вводить с клавиатуры.
+
+2)* Реализуйте механизм сохранения и чтения объекта Client в файл.
+Вот приблизительно наполнение класса Client.
+    private Long id;
+    private String status;
+    private Long taxCode;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String address;
+    private String phone;
+
+3)** Научите данный механизм задачи 2 сохранять также список таких объектов Client в файл,
+и читать эти объекты из файла в List<Client>.
+
+  
+
+  
