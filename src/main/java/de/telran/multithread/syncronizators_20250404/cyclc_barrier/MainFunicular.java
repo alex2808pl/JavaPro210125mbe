@@ -1,4 +1,4 @@
-package de.telran.multithread.syncronizators_20250404.count_down_latch;
+package de.telran.multithread.syncronizators_20250404.cyclc_barrier;
 
 import java.util.concurrent.CyclicBarrier;
 
