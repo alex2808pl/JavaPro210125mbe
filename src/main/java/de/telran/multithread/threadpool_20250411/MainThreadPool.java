@@ -15,6 +15,7 @@ public class MainThreadPool {
             Thread.sleep(500);
         }
 
+        Thread.sleep(2000);
         executor.shutdown();
     }
 }
