@@ -1,7 +1,6 @@
 package de.telran.multithread.base_20250326;
 
 // Если уже есть предок - множественное наследование у нас запрещено
-@Deprecated
 public class RunnableTask extends Object implements Runnable{
     private int start;
     private int end;

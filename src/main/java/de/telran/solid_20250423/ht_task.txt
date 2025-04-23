@@ -1,0 +1,23 @@
+Задача: Создание системы управления библиотекой с использованием принципов SOLID
+Описание задачи:
+Вы работаете в компании, занимающейся разработкой программного обеспечения для управления библиотеками.
+Ваша задача - создать систему классов, которая будет соответствовать принципам SOLID
+и позволит эффективно управлять библиотекой. Основные функции системы включают добавление новых книг,
+учет взятых и возвращенных книг.
+
+Описание классов:
+Book:
+Поля: title, author, isbn, availableCopies
+
+User:
+Поля: name, userId, borrowedBooks
+Методы:  borrowBook(Book book), returnBook(Book book) - методы для добавления и удаления книг из borrowedBooks
+
+Library:
+Поля: books, users
+Методы: addBook(Book book), removeBook(Book book), registerUser(User user), findBookByIsbn(String isbn)
+
+LibraryManager:
+Поля: library
+Методы: borrowBook(String isbn, User user), returnBook(String isbn, User user),
+addBook(Book book), removeBook(Book book), registerUser(User user)
